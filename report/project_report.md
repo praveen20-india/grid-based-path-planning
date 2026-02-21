@@ -1,4 +1,4 @@
-# Autonomous Systems: Grid-Based Motion Planning
+# Grid-Based Motion Planning
 
 ## 1. Introduction
 Robot motion planning requires determining a collision-free path from a starting configuration to a goal configuration within an environment sparsely or densely populated with obstacles. This report investigates grid-based motion planning via two foundational techniques: **Harmonic Potential Fields** and the **Wavefront Planner**. The focus is placed on continuous navigation in discrete space, evaluating distance metrics, connectivity rules, and algorithmic completeness.
@@ -80,16 +80,16 @@ The movement kinematics within grid-based environments define permissible explor
 Visualizations acquired over various complex structural domains (`map0` – `map3`) highlighted strong theoretical consistencies.
 
 **Total Potential Field Example:**
-![Total Potential Field Visualization](result_images/Total_potential_map_map_0_goal_1.png)
+![Total Potential Field Visualization](result_images/map0_goal1_total_potential.png)
 *(Displays intense repulsive spikes surrounding obstacles, with a global slope oriented toward the destination.)*
 
 **Wavefront Map Example:**
-![Wavefront Planner Map Visualization](result_images/Wave_front_map_map_0_goal_1_conn_8.png)
+![Wavefront Planner Map Visualization](result_images/map0_goal1_wavefront_map.png)
 *(Displays concentric distance contours uniformly expanding out from the destination point ensuring no local basins arise.)*
 
 **Gradient Descent vs Wavefront Extracted Trajectories:**
-![Gradient Descent Extraction](result_images/Potential_map_path_planning_map_0_goal_1.png)
-![Wavefront Trajectory](result_images/Wave_front_path_map_0_goal_1_conn_8.png)
+![Gradient Descent Extraction](result_images/map0_goal1_gd_path.png)
+![Wavefront Trajectory](result_images/map0_goal1_wavefront_path.png)
 *(Comparative behavior of potential-induced movement vs globally optimal monotonic paths.)*
 
 ## 8. Failure Analysis (Local Minima)
