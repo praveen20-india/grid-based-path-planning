@@ -23,8 +23,8 @@ The motion planning algorithms are tested on four distinct 2D occupancy grid map
 * **Wavefront Robustness:** Validation of global topological convergence regardless of starting configuration constraints.
 
 <p align="center">
-  <img src="report/result_images/Total_potential_map_map_0_goal_1.png" width="45%" title="Total Potential Field Map">
-  <img src="report/result_images/Wave_front_map_map_0_goal_1_conn_8.png" width="45%" title="Wavefront Distance Map">
+  <img src="report/result_images/map0_goal1_total_potential.png" width="45%" title="Total Potential Field Map">
+  <img src="report/result_images/map0_goal1_wavefront_map.png" width="45%" title="Wavefront Distance Map">
 </p>
 
 ## Key Insights
