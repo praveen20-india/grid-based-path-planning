@@ -1,0 +1,20 @@
+--- Scenario: map0_goal1 ---
+Gradient Descent (PF) - Length: 2001, Reached Goal: False
+Wavefront Planner     - Length: 1, Reached Goal: False
+
+--- Scenario: map0_goal2 ---
+Gradient Descent (PF) - Length: 2001, Reached Goal: False
+Wavefront Planner     - Length: 83, Reached Goal: True
+
+--- Scenario: map1 ---
+Gradient Descent (PF) - Length: 2001, Reached Goal: False
+Wavefront Planner     - Length: 114, Reached Goal: True
+
+--- Scenario: map2 ---
+Gradient Descent (PF) - Length: 2001, Reached Goal: False
+Wavefront Planner     - Length: 166, Reached Goal: True
+
+--- Scenario: map3 ---
+Gradient Descent (PF) - Length: 2001, Reached Goal: False
+Wavefront Planner     - Length: 408, Reached Goal: True
+
